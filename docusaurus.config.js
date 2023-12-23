@@ -63,7 +63,7 @@ const config = {
       navbar: {
         title: 'DataTome Docs',
         logo: {
-          alt: 'Moving Average Plus Docs Logo',
+          alt: 'Data Tome Docs Logo',
           src: 'img/icon.png',
         },
         items: [

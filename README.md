@@ -1,4 +1,4 @@
-# Moving Average Plus Docs
+# Data Tome Docs
 
 [![Github Stars](https://img.shields.io/github/stars/AlexandreHiroyuki/DataTomeDocs?color=yellow)](https://github.com/AlexandreHiroyuki/DataTomeDocs/stargazers)
 [![Contributors](https://img.shields.io/github/contributors-anon/AlexandreHiroyuki/DataTomeDocs)](https://github.com/AlexandreHiroyuki/DataTomeDocs/graphs/contributors)
