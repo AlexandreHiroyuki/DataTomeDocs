@@ -15,8 +15,8 @@ size_t size()
 ### 🔮 Example
 
 ```cpp
-MovingAveragePlus<unsigned int> intAverage(10);
-MovingAveragePlus<unsigned int> anotherAverage(4);
+DataTomeMvAvg<unsigned int> intAverage(10);
+DataTomeMvAvg<unsigned int> anotherAverage(4);
 
 // Will return 10
 intAverage.size()

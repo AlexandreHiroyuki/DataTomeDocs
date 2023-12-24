@@ -10,15 +10,13 @@ sidebar_position: 1
 3. Include it on your code.
 
 ```cpp
-#include <MovingAveragePlus.h>
+#include <DataTome.h>
 ```
 
 :::tip
 
-- You can also download and install the library through the official library manager on the Arduino IDE https://www.arduino.cc/reference/en/libraries/movingaverageplus/.
+- You can also download and install the library through the official library manager on the Arduino IDE https://www.arduino.cc/reference/en/libraries/datatome/.
   Access https://www.arduino.cc/en/guide/libraries to see more details about installing libraries on Arduino IDE.
-
-- Another site that lists Arduino libraries accepted by the official library manager https://www.arduinolibraries.info/libraries/moving-average-plus.
 
 - **_—Recommended Platform—_** Now it's possible to install this library on the [PlatformIO Registry](https://registry.platformio.org/libraries/alexandrehiroyuki/DataTome)!
 
@@ -36,9 +34,9 @@ sidebar_position: 1
 
 ---
 
-# 📦 Moving Average+ Methods
+# 📦 Data Tome Methods
 
-The **MovingAveragePlus** class abstracts the implementation of a circular array in order to calculate the arithmetic average of its members.
+The **DataTome** classes abstracts the implementation of a circular array in order to calculate the arithmetic average of its members.
 Because it is a circular array, the next input will replace the oldest element (represented by the first index), so it is also possible to call it a **FIFO queue**.
 
 If you are used to the C++ Standard Library, it will be easier to learn the methods since they follow the same pattern of name and logic.

@@ -16,7 +16,7 @@ TypeOfArray back()
 
 ```cpp
 // This will create an MovingAverage of size 4 and int type
-MovingAveragePlus<int> intAverage(4);
+DataTomeMvAvg<int> intAverage(4);
 
 // Will return 0
 intAverage.back();
