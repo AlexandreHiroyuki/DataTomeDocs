@@ -22,7 +22,7 @@ last = intAverage.push(8).back();
 ### 📝 Syntax
 
 ```cpp
-DataTomeMvAvg<TypeOfArray> &clear()
+DataTomeMvAvg<TypeOfArray, TypeOfSum> &clear()
 ```
 
 ### 🔮 Example
