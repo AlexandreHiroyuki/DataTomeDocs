@@ -55,7 +55,7 @@ const config = {
         {
           name: 'twitter:description',
           content:
-            'Aplicação destinada a mentoria e incentivo de iniciantes na programação.',
+            "Data Tome is a C++ library for data analysis and data filtering on IoT devices. Focus on the developer's experience and performance.",
         },
         { name: 'twitter:title', content: 'DataTome Docs' },
         { name: 'twitter:image', content: 'img/icon.png' },
@@ -63,7 +63,7 @@ const config = {
       navbar: {
         title: 'DataTome Docs',
         logo: {
-          alt: 'Moving Average Plus Docs Logo',
+          alt: 'Data Tome Docs Logo',
           src: 'img/icon.png',
         },
         items: [
@@ -86,12 +86,16 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Moving Average+ Methods',
-                to: '/docs/class-methods/intro',
+                label: 'Data Tome Moving Average Methods',
+                to: '/docs/mvavg-methods/intro',
               },
               {
-                label: 'Partials',
-                to: '/docs/class-methods/partials/intro',
+                label: 'Data Tome Partials',
+                to: '/docs/mvavg-methods/partials/intro',
+              },
+              {
+                label: 'Data Tome Analysis',
+                to: '/docs/analysis-methods/intro',
               },
             ],
           },

@@ -1,15 +1,15 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# 🧹 Clear
+# 📐 Resize
 
-**Clears** the **average** back to **0**, \***\*including its **initial size\*\*.
+**Changes** the **array** **size**.
 
 _Methods that **return pointers** allow **chained calls**._
 
 ```cpp
-MovingAveragePlus<unsigned int> intAverage(10);
+DataTomeMvAvg<unsigned int> intAverage(10);
 
 unsigned int x = 5, y = 10;
 unsigned int result, first, last;
@@ -22,19 +22,22 @@ last = intAverage.push(8).back();
 ### 📝 Syntax
 
 ```cpp
-MovingAveragePlus<TypeOfArray> &clear()
+DataTomeMvAvg<TypeOfArray, TypeOfSum> &resize(size_t new_size)
 ```
 
 ### 🔮 Example
 
 ```cpp
-MovingAveragePlus<unsigned int> intAverage(5);
+DataTomeMvAvg<unsigned int, unsigned long int> intAverage(3);
+
+// 3 2 1
+intAverage.push(1).push(2).push(3);
+
+// 3 2 1 0 0
+intAverage.resize(5);
 
 // 4 3 2 1 0
-intAverage.push(1).push(2).push(3).push(4)
-
-// will return 0
-intAverage.clear().get()
+intAverage.push(4);
 ```
 
 ### ⏱ Complexity
