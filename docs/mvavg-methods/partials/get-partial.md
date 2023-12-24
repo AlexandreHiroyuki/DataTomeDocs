@@ -17,7 +17,7 @@ TypeOfArray get_partial(size_t id)
 ### 🔮 Example
 
 ```cpp
-MovingAveragePlus<unsigned int> intAverage(10);
+DataTomeMvAvg<unsigned int, unsigned long int> intAverage(10);
 
 size_t partial_id = intAverage.create_partial(3);
 size_t partial_2_id = intAverage.create_partial(5);

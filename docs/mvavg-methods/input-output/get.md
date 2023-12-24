@@ -23,7 +23,7 @@ TypeOfArray get(size_t n_points) { return get_by_brute(n_points); }
 
 ```cpp
 // This will create an MovingAverage of size 4 and int type
-MovingAveragePlus<int> intAverage(4);
+DataTomeMvAvg<int, long int> intAverage(4);
 
 // Array: 8 0 0 0
 intAverage.push(8);
