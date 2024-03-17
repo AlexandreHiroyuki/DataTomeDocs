@@ -2,14 +2,15 @@
 sidebar_position: 8
 ---
 
-# 📏 Size
+# 📏 Size of Array
 
 **Returns** the **size** of the **array**.
 
 ### 📝 Syntax
 
 ```cpp
-size_t size()
+size_t size_of_array();
+size_t size(); // Alias
 ```
 
 ### 🔮 Example
@@ -19,10 +20,10 @@ DataTomeMvAvg<unsigned int> intAverage(10);
 DataTomeMvAvg<unsigned int> anotherAverage(4);
 
 // Will return 10
-intAverage.size()
+intAverage.size();
 
 // Will return 4
-anotherAverage.size()
+anotherAverage.size();
 ```
 
 ### ⏱ Complexity
