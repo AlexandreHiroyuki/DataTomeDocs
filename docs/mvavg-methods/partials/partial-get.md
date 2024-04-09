@@ -4,9 +4,10 @@ sidebar_position: 3
 
 # 📤 Partial Get
 
-Returns the Partial average result of the requested ID.
-Use the ID provided by the creation method to access the partial result.
-Requesting an invalid ID will return a 0.
+**Returns** the **partial average result** of the requested ID.
+
+> Use the ID provided by the creation method to access the partial result.
+> Requesting an invalid ID will return a 0.
 
 ### 📝 Syntax
 

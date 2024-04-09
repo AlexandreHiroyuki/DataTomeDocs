@@ -1,6 +1,6 @@
 # Data Tome Docs
 
-[![Github Stars](https://img.shields.io/github/stars/AlexandreHiroyuki/DataTomeDocs?color=yellow)](https://github.com/AlexandreHiroyuki/DataTomeDocs/stargazers)
+[![Github Stars](https://img.shields.io/github/stars/AlexandreHiroyuki/DataTomeDocs?style=flat&color=yellow)](https://github.com/AlexandreHiroyuki/DataTomeDocs/stargazers)
 [![Contributors](https://img.shields.io/github/contributors-anon/AlexandreHiroyuki/DataTomeDocs)](https://github.com/AlexandreHiroyuki/DataTomeDocs/graphs/contributors)
 [![Top Language](https://img.shields.io/github/languages/top/AlexandreHiroyuki/DataTomeDocs)](https://github.com/AlexandreHiroyuki/DataTomeDocs)
 

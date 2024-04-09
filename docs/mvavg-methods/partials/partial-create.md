@@ -6,7 +6,10 @@ sidebar_position: 2
 
 When you create a Partial, the structure will create a reactive variable behind the scenes. The name reactive represents how the variables will automatically update their values without more instructions.
 The Partial will keep tracking of the requested sum size.
+
 Requesting a bigger size than the main array will be understood as the maximum array size.
+
+When a partial is **created**, the structure will **return an ID** that will be used to **get the partial results**.
 
 ### 📝 Syntax
 
