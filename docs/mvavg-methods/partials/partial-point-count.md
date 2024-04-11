@@ -12,7 +12,7 @@ sidebar_position: 5
 ### 📝 Syntax
 
 ```cpp
-size_t point_count();
+size_t partial_point_count(size_t id);
 ```
 
 ### 🔮 Example
@@ -20,13 +20,15 @@ size_t point_count();
 ```cpp
 DataTomeMvAvg<unsigned int> intAverage(10);
 
+size_t partial_id = intAverage.partial_create(5);
+
 intAverage.push(2);
 
-intAverage.point_count(); // Will return 1
+intAverage.partial_point_count(partial_id); // Will return 1
 
 intAverage.push(5);
 
-intAverage.point_count(); // Will return 2
+intAverage.partial_point_count(partial_id); // Will return 2
 ```
 
 ### ⏱ Complexity
