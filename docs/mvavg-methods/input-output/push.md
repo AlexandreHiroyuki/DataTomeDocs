@@ -38,7 +38,7 @@ intAverage.push(6);
 
 // Array: 1 6
 // Array: 2 1 6
-// Array: 3
+// Array: 3 2 1 6
 // Array: 4 3 2 1 6
 for(int i = 1; i < 5; i++){
     intAverage.push(i);

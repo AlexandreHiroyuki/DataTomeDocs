@@ -10,7 +10,7 @@ _If the number of requested points exceed the array size, it will return the ave
 
 _⚠ Pay attention to how get_by_brute is significantly **slower** than the pure get function. If you are looking for a more efficient solution, search for the partial average concept in this library._
 
-[📊 Partials](pathname:///docs/class-methods/partials/intro)
+[📊 Partials](pathname:///docs/mvavg-methods/partials/intro)
 
 ### 📝 Syntax
 

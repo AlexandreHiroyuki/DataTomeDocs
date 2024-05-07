@@ -6,7 +6,7 @@ sidebar_position: 2
 
 **Returns** the **current** moving average **value**.
 
-[📊 Partials](pathname:///docs/class-methods/partials/intro)
+[📊 Partials](pathname:///docs/mvavg-methods/partials/intro)
 
 ### 📝 Syntax
 
