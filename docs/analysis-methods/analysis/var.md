@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# 📈 Variance
+# 📊 Variance
 
 **Returns** the **variance** of the time series array.
 

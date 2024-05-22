@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 📈 Count
+# 📊 Count
 
 **Returns** the **number of data points** pushed in the **array**.
 

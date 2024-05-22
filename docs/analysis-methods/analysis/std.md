@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# 📈 Standard Deviation
+# 📊 Standard Deviation
 
 **Returns** the **standard deviation** of the time series array.
 
