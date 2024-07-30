@@ -15,7 +15,7 @@ function HomepageHeader() {
           <b className='text--primary'>DataTome</b> Docs
         </h1>
         <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
-          All IoT data management in one library.
+          All your IoT data processing is in one library.
         </p>
 
         <div className={styles.buttons}>

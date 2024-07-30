@@ -17,7 +17,7 @@ TypeOfArray min()
 ```cpp
 DataTomeAnalysis<int, long int> intAverage(10);
 
-for(int i = 1; i < 5; i++){
+for (int i = 1; i < 5; i++) {
     intAverage.push(i);
 }
 
