@@ -1,3 +1,7 @@
 {
-  "conventionalCommits.scopes": ["DataTomeMvAvg", "DataTomeAnalysis"]
+  "conventionalCommits.scopes": [
+    "DataTomeMvAvg",
+    "DataTomeAnalysis",
+    "Home"
+  ]
 }
