@@ -4,6 +4,18 @@ sidebar_position: 1
 
 # 💾 Installation
 
+## PlatformIO Installation
+
+1. Open PlatformIO Core CLI <br />
+2. Change directory (cd) to the PlatformIO project where platformio.ini is located. <br />
+3. Install Data Tome library by running:
+
+```bash
+pio pkg install --library "alexandrehiroyuki/DataTome"
+```
+
+## Manual Installation on Arduino IDE
+
 1. Clone the repository and download the zip file at https://github.com/AlexandreHiroyuki/DataTome.
    Also, you can see and download all releases at https://github.com/AlexandreHiroyuki/DataTome/releases.
 2. Drag and drop it on `Arduino/libraries/` folder.
