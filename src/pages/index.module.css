@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  height: 75vh;
+  min-height: 75vh;
   padding: 4rem 0;
   text-align: center;
   position: relative;
