@@ -5,6 +5,10 @@ sidebar_position: 5
 
 **Returns** the **median** of the **data points** pushed in the **array**.
 
+> Statistically, the moving average is optimal for recovering the underlying trend of the time series when the fluctuations about the trend are normally distributed. However, the normal distribution does not place high probability on very large deviations from the trend which explains why such deviations will have a disproportionately large effect on the trend estimate. It can be shown that if the fluctuations are instead assumed to be Laplace distributed, then the moving median is statistically optimal. For a given variance, the Laplace distribution places higher probability on rare events than does the normal, which explains why the moving median tolerates shocks better than the moving mean.
+> 
+> [Read more at Wikipedia](https://en.wikipedia.org/wiki/Moving_average#Moving_median).
+
 ### 📝 Syntax
 
 ```cpp

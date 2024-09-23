@@ -9,7 +9,7 @@ sidebar_position: 3
 ### 📝 Syntax
 
 ```cpp
-TypeOfArray min()
+TypeOfArray minimum()
 ```
 
 ### 🔮 Example
@@ -21,7 +21,7 @@ for (int i = 1; i < 5; i++) {
     intAverage.push(i);
 }
 
-intAverage.min(); // Will return 1
+intAverage.minimum(); // Will return 1
 ```
 
 ### ⏱ Complexity

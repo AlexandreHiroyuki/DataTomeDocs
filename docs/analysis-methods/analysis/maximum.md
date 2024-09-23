@@ -9,7 +9,7 @@ sidebar_position: 4
 ### 📝 Syntax
 
 ```cpp
-TypeOfArray max()
+TypeOfArray maximum()
 ```
 
 ### 🔮 Example
@@ -21,7 +21,7 @@ for (int i = 1; i < 5; i++) {
     intAverage.push(i);
 }
 
-intAverage.max(); // Will return 4
+intAverage.maximum(); // Will return 4
 ```
 
 ### ⏱ Complexity
