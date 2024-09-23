@@ -8,10 +8,10 @@ sidebar_position: 1
 _Methods that **return pointers** allow **chained calls**._
 
 ```cpp
-DataTomeMvAvg<unsigned int> intAverage(10);
+DataTomeMvAvg<int> intAverage(10);
 
-unsigned int x = 5, y = 10;
-unsigned int result, first, last;
+int x = 5, y = 10;
+int result, first, last;
 
 result = intAverage.push(x).push(y).get();
 first = intAverage.push(56).front();
@@ -29,9 +29,9 @@ DataTomeMvAvg<TypeOfArray, TypeOfSum> &push(TypeOfArray input)
 ### 🔮 Example
 
 ```cpp
-// This will create an MovingAverage of size 5 and unsigned type
+// This will create an MovingAverage of size 5 and int type
 // Array: 0 0 0 0 0
-DataTomeMvAvg<unsigned int> intAverage(5);
+DataTomeMvAvg<int> intAverage(5);
 
 // Array: 6
 intAverage.push(6);

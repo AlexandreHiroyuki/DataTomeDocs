@@ -16,8 +16,8 @@ size_t size(); // Alias
 ### 🔮 Example
 
 ```cpp
-DataTomeMvAvg<unsigned int> intAverage(10);
-DataTomeMvAvg<unsigned int> anotherAverage(4);
+DataTomeMvAvg<int> intAverage(10);
+DataTomeMvAvg<int> anotherAverage(4);
 
 // Will return 10
 intAverage.size();

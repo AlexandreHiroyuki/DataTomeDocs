@@ -21,11 +21,11 @@ DataTomeMvAvg<class TypeOfArray, class TypeOfSum> yourAverageName(size_t size);
 ## 🔮 Example
 
 ```cpp
-// This will create an MovingAverage of size 10, unsigned int type, and acumulator type as unsigned int
-DataTomeMvAvg<unsigned int> intAverage(10);
+// This will create an MovingAverage of size 10, int type, and acumulator type as int
+DataTomeMvAvg<int> intAverage(10);
 
-// This will create an MovingAverage of size 10, unsigned int type, and acumulator type as long unsigned int
-DataTomeMvAvg<unsigned int, unsigned long int> intAverage(10);
+// This will create an MovingAverage of size 10, int type, and acumulator type as long int
+DataTomeMvAvg<int, long int> intAverage(10);
 ```
 
 ## ⏱ Complexity

@@ -19,7 +19,7 @@ size_t partial_size(size_t id) // Alias
 ### 🔮 Example
 
 ```cpp
-DataTomeMvAvg<unsigned int, unsigned long int> intAverage(10);
+DataTomeMvAvg<int, long int> intAverage(10);
 
 size_t partial_id = intAverage.partial_create(3);
 

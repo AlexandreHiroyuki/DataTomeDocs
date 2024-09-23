@@ -18,7 +18,7 @@ size_t partials_memory();
 ### 🔮 Example
 
 ```cpp
-DataTomeMvAvg<unsigned int> intAverage(10);
+DataTomeMvAvg<int> intAverage(10);
 
 intAverage.partial_create(3);
 intAverage.partial_create(5);

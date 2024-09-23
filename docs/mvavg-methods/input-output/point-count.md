@@ -15,7 +15,7 @@ size_t point_count();
 ### 🔮 Example
 
 ```cpp
-DataTomeMvAvg<unsigned int> intAverage(10);
+DataTomeMvAvg<int> intAverage(10);
 
 intAverage.push(2);
 

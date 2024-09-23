@@ -18,7 +18,7 @@ size_t partial_point_count(size_t id);
 ### 🔮 Example
 
 ```cpp
-DataTomeMvAvg<unsigned int> intAverage(10);
+DataTomeMvAvg<int> intAverage(10);
 
 size_t partial_id = intAverage.partial_create(5);
 

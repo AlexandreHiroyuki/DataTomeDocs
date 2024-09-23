@@ -11,10 +11,10 @@ It doesn't decrease the array size by assuming that any data loss is undesirable
 _Methods that **return pointers** allow **chained calls**._
 
 ```cpp
-DataTomeMvAvg<unsigned int> intAverage(10);
+DataTomeMvAvg<int> intAverage(10);
 
-unsigned int x = 5, y = 10;
-unsigned int result, first, last;
+int x = 5, y = 10;
+int result, first, last;
 
 result = intAverage.push(x).push(y).get();
 first = intAverage.push(56).front();
@@ -33,7 +33,7 @@ DataTomeMvAvg<TypeOfArray, TypeOfSum> &resize(size_t new_size) { return grow(new
 ### 🔮 Example
 
 ```cpp
-DataTomeMvAvg<unsigned int, unsigned long int> intAverage(3);
+DataTomeMvAvg<int, long int> intAverage(3);
 
 // 3 2 1
 intAverage.push(1).push(2).push(3);
